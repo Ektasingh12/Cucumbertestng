@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "I test if Google search is working",
+        "description": "",
+        "id": "to-test-my-cucumber-test-is-running;i-test-if-google-search-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7928974990,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Google home page",
+            "match": {
+              "location": "Loginsteps.setUpMeth()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60399192,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"Cheese\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cheese",
+                  "offset": 9
+                }
+              ],
+              "location": "Loginsteps.enterMeth(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31205362,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I press enter",
+            "match": {
+              "location": "Loginsteps.enterMeth()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6383951,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I get results page",
+            "match": {
+              "location": "Loginsteps.resultsMeth()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test my cucumber test is running",
+    "description": "  I want to run a sample feature file.",
+    "id": "to-test-my-cucumber-test-is-running",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
